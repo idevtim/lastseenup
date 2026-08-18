@@ -56,11 +56,10 @@ script calls a URL when it finishes, and we page you when it stops calling.
 ## What happens when something breaks
 
 **A failure is confirmed before anyone is woken.** A single failed check does not
-open an incident: the failure has to repeat, and where checks run from more than
-one region, enough regions have to agree. Recovery is the other way round —
-every reporting region has to agree the monitor is healthy before an incident
-closes, so a flaky recovery cannot resolve something that is about to break
-again.
+open an incident. The failure has to repeat a configurable number of times in a
+row first, which is what stops one refused connection or one dropped packet from
+costing you a night's sleep. The result of every check is recorded either way, so
+the blip is still in the history you read the next morning.
 
 **Alerts escalate until somebody answers.** A push notification arrives first,
 delivered as Time Sensitive so it breaks through Focus. If nobody acknowledges,
@@ -104,9 +103,24 @@ through which channel, and how long each rung waits.
 
 ## Plans
 
-A free tier, and Pro. Subscriptions can be bought on the web or through the iOS
-app; you are billed once either way. Full pricing is on
-[lastseenup.com](https://lastseenup.com).
+A free tier that does not expire, and Pro. Every capability is on both — the
+checks, the alerting, escalation, Live Activities, the widgets and the watch
+app. What a subscription buys is room.
+
+| | Free | Pro |
+|---|---|---|
+| **Monitors** | 3 | 50 |
+| **People on the team** | 1 | 10 |
+
+Pro is sold monthly or yearly. Buy it on the web or through the iOS app — an
+account is billed through one of the two and never both. Cancelling stops the
+next renewal and you keep the plan until the period you paid for ends; dropping
+back to Free never deletes a monitor.
+
+Current pricing is on [lastseenup.com](https://lastseenup.com/#plans). It is
+deliberately not repeated here: the figure lives in the app's configuration,
+in Stripe and in App Store Connect, and a fourth copy in a README is the one
+nobody remembers to change.
 
 ## Documentation & Support
 
@@ -114,12 +128,22 @@ app; you are billed once either way. Full pricing is on
 - **Bug Reports** - [GitHub Issues](https://github.com/idevtim/lastseenup/issues)
 - **Feature Requests** - [GitHub Discussions](https://github.com/idevtim/lastseenup/discussions)
 
-Security reports go to [support@lastseenup.com](mailto:support@lastseenup.com)
-directly, not to a public issue.
+Anything about your own account — billing, a monitor that did not alert, a
+sign-in you cannot complete — goes to [the support
+form](https://lastseenup.com/support) or to
+[support@lastseenup.com](mailto:support@lastseenup.com) rather than to a public
+issue. The form needs no account, which matters when the thing that is broken
+is getting in.
+
+**Security reports go to [security@lastseenup.com](mailto:security@lastseenup.com)**,
+never to a public issue. Good-faith research that does not degrade the service
+or touch other people's data will not be pursued.
 
 ## Contact
 
-**Email:** support@lastseenup.com
+**Support:** support@lastseenup.com or https://lastseenup.com/support
+**Security:** security@lastseenup.com
+**Privacy and data requests:** privacy@lastseenup.com
 **Website:** https://lastseenup.com
 
 ## Legal
