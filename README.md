@@ -28,6 +28,12 @@ to your phone.
   <img src="marketing/ipad-2.png" alt="A monitor's detail on iPad" width="44%" />
 </p>
 
+### Apple Watch
+
+<p align="center">
+  <img src="marketing/watch-1.png" alt="The monitor roster on Apple Watch" width="20%" />
+</p>
+
 ---
 
 ## What it watches
