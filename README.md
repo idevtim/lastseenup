@@ -10,6 +10,26 @@ to your phone.
 
 ---
 
+## Screenshots
+
+### iPhone
+
+<p align="center">
+  <img src="marketing/iphone-1.png" alt="The dashboard: status tiles, open incidents and reliability" width="22%" />
+  <img src="marketing/iphone-2.png" alt="The monitors list, worst first" width="22%" />
+  <img src="marketing/iphone-3.png" alt="A monitor's uptime and latency history" width="22%" />
+  <img src="marketing/iphone-4.png" alt="An open incident, with acknowledge and timeline" width="22%" />
+</p>
+
+### iPad
+
+<p align="center">
+  <img src="marketing/ipad-1.png" alt="The dashboard on iPad" width="44%" />
+  <img src="marketing/ipad-2.png" alt="A monitor's detail on iPad" width="44%" />
+</p>
+
+---
+
 ## What it watches
 
 | Check | What it asks |
