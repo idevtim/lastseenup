@@ -15,7 +15,7 @@ to your phone.
 ### iPhone
 
 <p align="center">
-  <img src="marketing/iphone-1.png" alt="The dashboard: status tiles, open incidents and reliability" width="22%" />
+  <img src="marketing/iphone-1.png" alt="The dashboard: the open incident first, then every monitor worst first" width="22%" />
   <img src="marketing/iphone-2.png" alt="The monitors list, worst first" width="22%" />
   <img src="marketing/iphone-3.png" alt="A monitor's uptime and latency history" width="22%" />
   <img src="marketing/iphone-4.png" alt="An open incident, with acknowledge and timeline" width="22%" />
@@ -31,7 +31,7 @@ to your phone.
 ### Apple Watch
 
 <p align="center">
-  <img src="marketing/watch-1.png" alt="The monitor roster on Apple Watch" width="20%" />
+  <img src="marketing/watch-1.png" alt="Apple Watch: the outage first, with its countdown and Acknowledge" width="20%" />
 </p>
 
 ---
